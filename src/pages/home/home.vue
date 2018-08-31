@@ -2,6 +2,7 @@
     <div>
         <div>
             <home-header></home-header>
+            <home-swiper></home-swiper>
         </div>   
     </div>
     
@@ -9,10 +10,12 @@
 
 <script>
 import HomeHeader from './compoments/Header'
+import HomeSwiper from './compoments/swiper'
 export default{
     name:'home',
     components:{
-        HomeHeader:HomeHeader
+        HomeHeader:HomeHeader,
+        HomeSwiper:HomeSwiper
     }
 }
 </script>
